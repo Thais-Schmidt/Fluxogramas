@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="23148612"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-02 07:58:30 "/>
+        <attribute name="created" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDc6MzE6NTMgIjsyNDI1"/>
+        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDc6NTg6MzAgIjsxOzI1Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero1, Numero2, Soma" type="Integer" array="False" size=""/>
+            <input variable="Numero1"/>
+            <input variable="Numero2"/>
+            <assign variable="soma" expression="Numero1-Numero2"/>
+            <output expression="&quot;A soma dos numero digitados e igual a &quot;&amp;soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="23148612"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-02 08:57:37 "/>
+        <attribute name="created" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDg6MDk6MTYgIjsyNDMw"/>
+        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDg6NTc6MzcgIjsyOzI1NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, resultado" type="Real" array="False" size=""/>
+            <input variable="valor"/>
+            <assign variable="resultado" expression="valor/4.82"/>
+            <output expression="&quot;O valor em dolar da quantia inserida e &quot;&amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

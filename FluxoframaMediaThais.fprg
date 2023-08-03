@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="23148612"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-02 08:08:42 "/>
+        <attribute name="created" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDc6NTg6MzUgIjsyNDM0"/>
+        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDg6MDg6NDIgIjsyOzI1Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero1, Numero2, media, soma" type="Integer" array="False" size=""/>
+            <input variable="Numero1"/>
+            <input variable="Numero2"/>
+            <assign variable="soma" expression="Numero1+Numero2"/>
+            <assign variable="media" expression="soma/2"/>
+            <output expression="&quot;A media da soma dos dois numeros e igual a &quot;&amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

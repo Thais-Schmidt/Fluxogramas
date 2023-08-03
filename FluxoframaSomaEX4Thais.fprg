@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="23148612"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-02 09:31:29 "/>
+        <attribute name="created" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDc6MzE6NTMgIjsyNDI1"/>
+        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDk6MzE6MjkgIjszOzI1NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Idade, Maior, Menor" type="Integer" array="False" size=""/>
+            <input variable="Idade"/>
+            <while expression="Idade&gt;=18">
+                <output expression="&quot;Voce e maior de idade.&quot;" newline="True"/>
+                <breakpoint expression="" always="True"/>
+            </while>
+            <output expression="&quot;Voce e menor de idade&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

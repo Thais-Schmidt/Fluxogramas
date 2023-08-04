@@ -4,17 +4,18 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="23148612"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-08-02 09:40:27 "/>
+        <attribute name="saved" value="2023-08-03 07:22:47 "/>
         <attribute name="created" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDc6MzE6NTMgIjsyNDI1"/>
-        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDk6NDA6MjcgIjs1OzI1NDA="/>
+        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMzsiMDc6MjI6NDcgIjs3OzI1NDM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Numero, somar" type="Integer" array="False" size=""/>
-            <input variable="Numero"/>
-            <while expression="Numero&lt;18">
-                <assign variable="somar" expression="Numero+1"/>
+            <declare name="Loop" type="Integer" array="False" size=""/>
+            <input variable="Loop"/>
+            <while expression="Loop&lt;=10">
+                <output expression="Loop" newline="True"/>
+                <assign variable="Loop" expression="Loop + 1"/>
             </while>
         </body>
     </function>

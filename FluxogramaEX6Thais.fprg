@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="23148612"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-03 07:34:38 "/>
+        <attribute name="created" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDc6MzE6NTMgIjsyNDI1"/>
+        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMzsiMDc6MzQ6MzggIjsxMTsyNTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="velocidade, multa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual a velocidade do seu carro?&quot;" newline="True"/>
+            <input variable="velocidade"/>
+            <if expression="velocidade &gt; 100">
+                <then>
+                    <assign variable="multa" expression="(velocidade-100)*5"/>
+                    <output expression="&quot;Voce foi multado.&quot;" newline="True"/>
+                    <output expression="&quot;Sua multa e de R$&quot;&amp;multa&amp;&quot;,00.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parabens, voce esta dentro do limite.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

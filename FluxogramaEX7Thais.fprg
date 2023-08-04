@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="23148612"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-03 09:07:54 "/>
+        <attribute name="created" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMjsiMDc6MzE6NTMgIjsyNDI1"/>
+        <attribute name="edited" value="MjMxNDg2MTI7RVNONTEyTjEyNjI4NDQ7MjAyMy0wOC0wMzsiMDk6MDc6NTQgIjsxNDsyNTky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, vezes, multiplo" type="Integer" array="False" size=""/>
+            <assign variable="vezes" expression="1"/>
+            <output expression="&quot;Digite um numero.&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num = 0">
+                <then>
+                    <output expression="&quot;Digite outro numero diferente de 0&quot;" newline="True"/>
+                    <input variable="num"/>
+                    <while expression="num = 0">
+                        <output expression="&quot;Numero Invalido&quot;" newline="True"/>
+                        <input variable="num"/>
+                    </while>
+                </then>
+                <else/>
+            </if>
+            <if expression="(num%2 == 0)">
+                <then>
+                    <while expression="vezes&lt;11">
+                        <assign variable="multiplo" expression="num*vezes"/>
+                        <output expression="&quot;O resultado do numero multiplicado por &quot;&amp;vezes&amp;&quot; e &quot;&amp;multiplo&amp;&quot;.&quot;" newline="True"/>
+                        <assign variable="vezes" expression="vezes + 1"/>
+                    </while>
+                </then>
+                <else>
+                    <while expression="vezes&lt;10">
+                        <assign variable="multiplo" expression="num*vezes"/>
+                        <output expression="&quot;O resultado do numero multiplicado por &quot;&amp;vezes&amp;&quot; e &quot;&amp;multiplo&amp;&quot;.&quot;" newline="True"/>
+                        <assign variable="vezes" expression="vezes+1"/>
+                    </while>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
